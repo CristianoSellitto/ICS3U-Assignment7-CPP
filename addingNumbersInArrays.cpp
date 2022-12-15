@@ -11,6 +11,8 @@
 
 template <size_t length>
 int AddNumbersInArrays(std::array<int, length> array, int numberOfLoops) {
+    // Adds all of the numbers in an array
+
     int sum = 0;
 
     for (int counter = 0; counter < numberOfLoops; counter++) {
@@ -22,6 +24,8 @@ int AddNumbersInArrays(std::array<int, length> array, int numberOfLoops) {
 
 template <size_t length>
 std::string FormatAddingArrayText(
+    // Formats the sum text of an array
+
     std::array<int, length> array,
     int numberOfLoops) {
     std::string equationText = "";
